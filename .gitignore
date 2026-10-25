@@ -1,0 +1,24 @@
+# Secrets
+env.sh
+.env
+.env.*
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated files
+*.checkpoint.json
+*.log
+*.tmp
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
